@@ -228,3 +228,31 @@
     });
   });
 })();
+
+// Testimonial functionality (unchanged)
+const testimonials = document.querySelectorAll(".testimonial");
+const dots = document.querySelectorAll(".dots");
+let currentSlide = 0;
+
+function showSlide(n) {
+  testimonials.forEach((testimonial, index) => {
+    testimonial.style.display = index === n ? "block" : "none";
+  });
+
+  dots.forEach((dot, index) => {
+    dot.classList.toggle("active", index === n);
+  });
+}
+
+dots.forEach((dot, index) => {
+  dot.addEventListener("click", () => {
+    currentSlide = index;
+    showSlide(currentSlide);
+  });
+});
+
+// Automatic slide show
+setInterval(() => {
+  currentSlide = (currentSlide + 1) % testimonials.length;
+  showSlide(currentSlide);
+}, 5000);
