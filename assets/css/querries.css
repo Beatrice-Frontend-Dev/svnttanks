@@ -10,12 +10,11 @@
   }
 
   .header-contact-info {
-    padding: 3rem 4rem;
+    padding: 3rem;
     position: fixed;
     top: 0;
     left: 0;
     background-color: white;
-    width: 100%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
   }
@@ -164,6 +163,7 @@
     flex-direction: column;
     flex: 1;
     width: 100%;
+    overflow: hidden;
   }
 
   .footer-div {
