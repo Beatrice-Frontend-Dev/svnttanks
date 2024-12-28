@@ -395,9 +395,13 @@
   }
 
   .logo {
+    width: 11rem;
+  }
+
+  /* .logo {
     height: 4.56rem;
     width: 11.5rem;
-  }
+  } */
 
   .burger-icon {
     height: 4.4rem;
