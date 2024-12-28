@@ -62,7 +62,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     row-gap: 5rem;
-    padding: 3rem;
+    padding: 2rem 1rem;
   }
 
   li .nav-link {
@@ -413,7 +413,7 @@
 
   .nav-links {
     row-gap: 5rem;
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
   }
 
   li .nav-link {
