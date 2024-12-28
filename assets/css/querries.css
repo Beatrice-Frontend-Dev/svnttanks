@@ -472,7 +472,7 @@
   }
 
   .carousel-item {
-    max-width: 70%;
+    max-width: 100%;
   }
 
   .carousel-item img {
@@ -480,6 +480,7 @@
   }
 
   .caro-item {
+    display: none;
     max-width: 60rem;
     height: 16rem;
   }
