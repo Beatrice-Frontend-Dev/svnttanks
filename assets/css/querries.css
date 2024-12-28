@@ -544,6 +544,10 @@
     height: 68rem;
   }
 
+  .heading-about-part {
+    display: none;
+  }
+
   .here {
     font-size: 2.2rem;
     margin-top: 1.5rem;
@@ -590,8 +594,8 @@
   .general-p {
     padding: 0;
     width: 100%;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 420;
+    font-size: 1.63rem;
   }
 
   .contact-us-about-page-cover {
