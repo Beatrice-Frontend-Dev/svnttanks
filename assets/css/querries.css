@@ -743,4 +743,9 @@
   .suss-s {
     font-size: 2.7rem;
   }
+
+  .mob {
+    font-size: 1.4rem;
+    font-weight: 450;
+  }
 }
