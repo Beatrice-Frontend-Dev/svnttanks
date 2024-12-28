@@ -590,6 +590,8 @@
   .general-p {
     padding: 0;
     width: 100%;
+    font-weight: 400;
+    font-size: 1.5rem;
   }
 
   .contact-us-about-page-cover {
