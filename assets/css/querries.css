@@ -436,6 +436,10 @@
     height: 80vh;
   }
 
+  .services-infooo {
+    padding: 1rem 2rem;
+  }
+
   .content {
     left: 2.5rem;
     width: 95%;
@@ -625,14 +629,6 @@
     margin-top: 1.6rem;
   }
 
-  .unk-div h3 {
-    font-size: 1.7rem;
-  }
-
-  .unk-div h2 {
-    font-size: 2.1rem;
-  }
-
   .p11 {
     font-size: 2.5rem;
   }
@@ -690,11 +686,11 @@
   }
 
   .unk-div h3 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .unk-div h2 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 
   .facillis-img img {
