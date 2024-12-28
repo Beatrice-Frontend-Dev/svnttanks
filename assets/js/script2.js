@@ -47,63 +47,6 @@
   headerObserver.observe(header);
 })();
 
-// Hero Slider Functionality
-(function () {
-  document.addEventListener("DOMContentLoaded", function () {
-    const slides = document.querySelectorAll(".slide");
-    const nextButton = document.querySelector(".next");
-    const prevButton = document.querySelector(".prev");
-    let currentSlide = 0;
-    let autoSlideInterval;
-
-    function updateSlides() {
-      slides.forEach((slide, index) => {
-        slide.classList.remove("active", "prev");
-        if (index === currentSlide) {
-          slide.classList.add("active");
-        } else if (
-          index ===
-          (currentSlide - 1 + slides.length) % slides.length
-        ) {
-          slide.classList.add("prev");
-        }
-      });
-    }
-
-    function goToNextSlide() {
-      currentSlide = (currentSlide + 1) % slides.length;
-      updateSlides();
-    }
-
-    function goToPrevSlide() {
-      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-      updateSlides();
-    }
-
-    function startAutoSlide() {
-      autoSlideInterval = setInterval(goToNextSlide, 5000);
-    }
-
-    function resetAutoSlide() {
-      clearInterval(autoSlideInterval);
-      startAutoSlide();
-    }
-
-    nextButton.addEventListener("click", () => {
-      goToNextSlide();
-      resetAutoSlide();
-    });
-
-    prevButton.addEventListener("click", () => {
-      goToPrevSlide();
-      resetAutoSlide();
-    });
-
-    updateSlides();
-    startAutoSlide();
-  });
-})();
-
 // Statistics Counting
 (function () {
   document.addEventListener("DOMContentLoaded", () => {
