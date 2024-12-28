@@ -780,4 +780,9 @@
     font-size: 1.4rem;
     font-weight: 500;
   }
+
+  .reach-info h3,
+  .add {
+    font-size: 3rem;
+  }
 }
