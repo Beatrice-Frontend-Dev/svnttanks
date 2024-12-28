@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Services | SvntTanks</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/pages.css" />
+    <link rel="stylesheet" href="../assets/css/querries.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-contact-info">
+        <div class="logo-div">
+          <img src="../assets/images/1.jpg" class="logo" alt="" />
+        </div>
+
+        <div class="header-contact-div">
+          <p class="header-icon"><i class="ri-home-7-line"></i></p>
+          <div class="name-flex">
+            <p class="p1">Jurong Island, Singapore</p>
+            <p class="p2">Southeast Asia</p>
+          </div>
+        </div>
+
+        <div class="header-contact-div">
+          <p class="header-icon"><i class="fa-regular fa-envelope"></i></p>
+          <div class="name-flex">
+            <p class="p1">Send us a mail</p>
+            <p class="p2"><a href="mailto:houston@svnttankfarm.com">houston@svnttankfarm.com</a></p>
+          </div>
+        </div>
+
+        <div class="header-contact-div">
+          <p class="header-icon"><i class="ri-phone-fill"></i></p>
+          <div class="name-flex">
+            <p class="p1">Contact us</p>
+            <p class="p2"><a href="tel:+3197005032445">+31 9700 5032445</a></p>
+          </div>
+        </div>
+
+        <div class="burger" id="burger" onclick="toggleNav()">
+          <img src="../assets/images/menu-bar.png" class="burger-icon" alt="">
+        </div>
+      </div>
+
+      <nav class="nav" id="nav">
+        <button class="close-btn" onclick="closeNav()">✕</button>
+        <ul class="nav-links">
+          <li><a href="../index.html" class="nav-link ">Home</a></li>
+          <li><a href="about.html" class="nav-link">Who we are</a></li>
+          <li><a href="services.html" class="nav-link active-window">Hseq</a></li>
+          <li><a href="sustain.html" class="nav-link">Sustainability</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <ul class="nav-links nav2">
+          <li>
+            <a href="tel:+3197005032445" class="nav-link"
+              ><i class="ri-phone-fill"></i></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:info@svnttankfarm.com" class="nav-link"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section
+      class="hero-section"
+      style="
+        background-image: url(../assets/images/tax.jpg);
+        background-size: cover;
+        background-position: top center;
+      "
+    >
+      <div class="overlay-about">
+        <div class="hero-content">
+          <div class="content22">
+            <h3>HSEQ</h3>
+            <p class="hero-infooo">Health, Safety, Environment & Quality</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section facility">
+      <div class="facility-cover">
+        <div class="unk-div">
+          <h3>Our Facilities</h3>
+          <h2>Overview of Our Facilities</h2>
+        </div>
+
+        <div class="facility-content">
+          <div class="facili faci1">
+            <img src="../assets/images/gather.jpg" alt="" />
+            <div class="other-content">
+              <p class="p11">Gas Gathering Facility</p>
+              <p class="p22">
+                This facility collects raw natural gas from multiple wells,
+                consolidates it, and removes basic impurities like water and
+                debris. This stage ensures the gas is ready for safe transport
+                to the next processing step.
+              </p>
+            </div>
+          </div>
+
+          <div class="facili faci2">
+            <img src="../assets/images/proc.jpg" alt="" />
+            <div class="other-content">
+              <p class="p11">Central Processing Facility</p>
+              <p class="p22">
+                Here, the raw gas undergoes detailed treatment, including
+                removing contaminants like sulfur and carbon dioxide,
+                dehydration, and separating valuable components like natural gas
+                liquids.
+              </p>
+            </div>
+          </div>
+
+          <div class="facili faci3">
+            <img src="../assets/images/serv1.jpg" alt="" />
+            <div class="other-content">
+              <p class="p11">Tank Farm</p>
+              <p class="p22">
+                Finally, the refined products are stored in a tank farm,
+                ensuring safe storage, effective distribution, and readiness for
+                export or market supply.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-section">
+      <div class="mission-content">
+        <div class="mission">
+          <p class="p11 p11-1">Our Mission</p>
+          <p class="p22 p22-2">
+            To provide safe, reliable, and efficient gas storage and handling
+            solutions for our clients while upholding the highest standards of
+            environmental stewardship and employee safety.
+          </p>
+        </div>
+
+        <div class="vision-p">
+          <p class="p11 p11-1">Our Vision</p>
+          <p class="p22 p22-2">
+            To be the leading provider of innovative and sustainable gas storage
+            solutions, trusted by our clients for safety, reliability, and
+            exceptional service.
+          </p>
+        </div>
+
+        <div class="value">
+          <p class="p11 p11-1">Our Values</p>
+          <p class="p22 p22-2">
+            We operate with Safety, Integrity, and Excellence, focusing on
+            Customer satisfaction, Environmental Stewardship, and fostering
+            strong Teamwork.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section facility facillity2">
+      <div class="facility-cover">
+        <div class="unk-div">
+          <h3>Our Commitments:</h3>
+          <h2>Health, Safety, Environment, and Quality</h2>
+        </div>
+
+        <div class="facility-content2">
+          <div class="facilis faci1">
+            <div class="facillis-img">
+              <img src="../assets/images/health.jpg" alt="" />
+            </div>
+
+            <div class="other-content2">
+              <p class="p11 p11-1b">Health</p>
+              <p class="p22 p22-1b">
+                Svnt Tanks Terminal takes full responsibility for preserving the
+                quality of its clients' products. Each is handled according to
+                the highest standards. Svnt Tanks Terminal ensures compliance with
+                all the requirements regarding the safe handling of products.
+                The principles of Svnt Tanks Terminal health policy apply to every
+                employee and every Svnt Tanks Terminal location and vessel. They
+                clearly define priorities and roles. The main goal of the policy
+                is to build consensus and to inform workers about safe and
+                healthy working methods.
+              </p>
+            </div>
+          </div>
+
+          <div class="facilis faci2">
+            <div class="other-content2">
+              <p class="p11 p11-1b">Safety</p>
+              <p class="p22 p22-1b">
+                At Svnt Tanks, safety is paramount. We prioritize the well-being
+                of our employees, the protection of the environment, and the
+                security of the valuable gas products entrusted to our care. We
+                adhere to the highest industry safety standards and rigorously
+                comply with all relevant regulations, including those pertaining
+                to the handling and storage of flammable and explosive
+                materials. Svnt Tanks fosters a strong safety culture,
+                implementing comprehensive safety policies and procedures that
+                cover all aspects of our operations, from the receipt and
+                storage of gas to its delivery and offloading.
+              </p>
+            </div>
+
+            <div class="facillis-img">
+              <img src="../assets/images/safety.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="facilis faci3">
+            <div class="facillis-img">
+              <img src="../assets/images/env.webp" alt="" />
+            </div>
+            <div class="other-content2">
+              <p class="p11 p11-1b">Environment</p>
+              <p class="p22 p22-1b">
+                At Svnt Tanks, we are committed to minimizing our environmental
+                impact and operating in an environmentally responsible manner.
+                We adhere to all applicable environmental regulations and strive
+                to continuously improve our environmental performance. We
+                implement best practices to prevent pollution and minimize
+                emissions, such as utilizing advanced vapor recovery systems and
+                minimizing fugitive emissions. We promote the responsible use of
+                resources, such as energy and water, by implementing
+                energy-efficient equipment and utilizing rainwater harvesting
+                systems.
+              </p>
+            </div>
+          </div>
+
+          <div class="facilis faci4">
+            <div class="other-content2">
+              <p class="p11 p11-1b">Quality</p>
+              <p class="p22 p22-1b">
+                At Svnt Tanks, we are committed to delivering the highest quality
+                service and ensuring the integrity of our clients' gas products.
+                We maintain rigorous quality control measures throughout our
+                operations, from the initial receipt and inspection of gas
+                products to their final delivery. Our state-of-the-art terminals
+                are equipped with advanced systems for monitoring and
+                controlling product quality, ensuring the accurate measurement
+                and segregation of different gas grades. We employ a highly
+                skilled team of professionals with expertise in gas handling,
+                storage, and logistics.
+              </p>
+            </div>
+
+            <div class="facillis-img">
+              <img src="../assets/images/qualit.avif" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us-about-page">
+      <div class="serv-overlay">
+        <div class="image-cont">
+          <img src="../assets/images/contactus.png" alt="" />
+        </div>
+
+        <div class="serv-overlay-cont">
+          <h3>Get in Touch</h3>
+          <h2>Need more information?</h2>
+          <p>
+            Contact us through the most convenient channel and we can help with
+            any information you may need.
+          </p>
+
+          <button>
+            <a href="contact.html">Contact</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-slide-section">
+      <div class="heading">
+        <p class="write-up-p1">What Our Customers say</p>
+        <p class="line"></p>
+      </div>
+
+      <div class="slider">
+        <div class="slide__2 slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Exceptional Service and Reliability
+            </h5>
+            <blockquote class="testimonial__text">
+              Partnering with Svnt Tanks has significantly enhanced our supply
+              chain efficiency. Their commitment to safety and timely deliveries
+              is unparalleled. They continuously go above and beyond to ensure
+              smooth operations, even in the most challenging situations.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="../assets/images/user1.jpeg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">
+                James Thornton, Global Energy Corp
+              </h6>
+              <p class="testimonial__location">Edinburgh, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide__2 slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Sustainable Storage Solutions</h5>
+            <blockquote class="testimonial__text">
+              The state-of-the-art facilities at Svnt Tanks have provided us with
+              the flexibility and security we need for our diverse storage
+              requirements. Their well-maintained and secure storage units offer
+              peace of mind, ensuring the safe handling of our products at all
+              times.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="../assets/images/user2.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">
+                Miyah Miles, BioFuel Innovations
+              </h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide__2 slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Professional and Responsive Team
+            </h5>
+            <blockquote class="testimonial__text">
+              The team at Svnt Tanks is always ready to assist, ensuring our
+              operations run smoothly. Their professionalism is commendable, and
+              they respond quickly to any inquiries or concerns. It's rare to
+              find a partner so dedicated to delivering excellence.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="../assets/images/user3.jpeg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">
+                Michael Roberts, Lubricants Plus Ltd.
+              </h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide__2 slide--4">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Customized Storage Options</h5>
+            <blockquote class="testimonial__text">
+              Svnt Tank's ability to provide tailored storage solutions has been
+              instrumental in accommodating our unique product specifications.
+              They understand the complexities of our industry and consistently
+              offer solutions that meet our specific needs, no matter the
+              challenge.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="../assets/images/user4.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">
+                Sarah Mitchell, Marine Fuels International.
+              </h6>
+              <p class="testimonial__location"></p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-overlay">
+        <div class="footer-wrap">
+          <div class="footer-div footer-div1">
+            <div class="heading">
+              <p class="write-up-footer">About</p>
+              <p class="line-foot"></p>
+            </div>
+
+            <p class="footer-about">
+              At Svnt Tanks, we are committed to delivering innovative solutions in tank storage, engineering, and logistics. With a focus on safety, sustainability, and exceptional service, we strive to be your trusted partner in achieving operational excellence and growth.
+            </p>
+
+            <div>
+              <ul class="footer2">
+                <li>
+                  <a href="tel:+3197005032445" class="footer-social"
+                    ><i class="ri-phone-fill"></i></a>
+                </li>
+                <li>
+                  <a href="mailto:info@svnttankfarm.com" class="footer-social"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-div footer-div2">
+            <div class="heading">
+              <p class="write-up-footer">Info Links</p>
+              <p class="line-foot"></p>
+            </div>
+
+            <ul class="footer-links">
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i></span
+                ><a href="../index.html" class="footer-link">Home</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="about.html" class="footer-link">About us</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+
+                <a href="services.html" class="footer-link">Our Business</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="contact.html" class="footer-link">Contact</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="services.html" class="footer-link">Tank Storage</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="sustain.html" class="footer-link">Sustainability</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="sustain.html" class="footer-link">Partners</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="services.html" class="footer-link">Values</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-div footer-div3">
+            <div class="heading">
+              <p class="write-up-footer">Contact Us</p>
+              <p class="line-foot"></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca"><i class="ri-map-pin-fill"></i></p>
+              <p class="loca2">Jurong Island, Singapore</p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca"><i class="fa-regular fa-envelope"></i></p>
+              
+              <p class="loca2"><a href="mailto:info@svnttankfarm.com">info@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              
+              <p class="loca2"><a href="mailto:rotterdam@svnttankfarm.com">rotterdam@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              
+              <p class="loca2"><a href="mailto:houston@svnttankfarm.com">houston@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              
+              <p class="loca2"><a href="mailto:singapore@svnttankfarm.com">singapore@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              
+              <p class="loca2"><a href="mailto:china@svnttankfarm.com">china@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca"><i class="ri-phone-fill"></i></p>
+              <p class="loca2"><a href="`">+31 9700 5032445</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+
+              <p class="loca2"><a href="tel:+13464694116">+1 346 469 4116</a> (Houston) </p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              <p class="loca2"><a href="tel:+85246725461">+852 467 25461</a> (China)</p>
+            </div>
+          </div>
+
+         
+          <div class="footer-div footer-div4"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.451439514841!2d103.70722958604954!3d1.2909701499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1078c03e1a37%3A0x768c384f344b688!2sJurong%20Island%2C%20Singapore!5e0!3m2!1sen!2sus!4v1698499998417!5m2!1sen!2sus" width="100%" height="350" style="border:0; border-radius: 0.6rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        SvnkTanks Group | © 2024 Powered by SvnkTanks Inc, | All rights reserved
+      </p>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

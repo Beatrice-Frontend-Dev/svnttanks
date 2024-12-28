@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia&family=Sora:wght@100..800&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Home | SvntTanks</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/querries.css" />
+   
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-contact-info">
+        <div class="logo-div">
+          <img src="assets/images/1.jpg" class="logo" alt="" />
+        </div>
+
+        <div class="header-contact-div">
+          <p class="header-icon"><i class="ri-home-7-line"></i></p>
+          <div class="name-flex">
+            <p class="p1">Jurong Island, Singapore</p>
+            <p class="p2">Southeast Asia</p>
+          </div>
+        </div>
+
+        <div class="header-contact-div">
+          <p class="header-icon"><i class="fa-regular fa-envelope"></i></p>
+          <div class="name-flex">
+            <p class="p1">Send us a mail</p>
+            <p class="p2"><a href="mailto:houston@svnttankfarm.com">houston@svnttankfarm.com</a></p>
+          </div>
+        </div>
+
+        <div class="header-contact-div">
+          <p class="header-icon"><i class="ri-phone-fill"></i></p>
+          <div class="name-flex">
+            <p class="p1">Contact us</p>
+            <p class="p2"><a href="tel:+3197005032445">+31 9700 5032445</a></p>
+          </div>
+        </div>
+
+        <div class="burger" id="burger" onclick="toggleNav()">
+          <img src="assets/images/menu-bar.png" class="burger-icon" alt="">
+        </div>
+      </div>
+
+      <nav class="nav" id="nav">
+
+        <button class="close-btn" onclick="closeNav()">✕</button>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active-window">Home</a></li>
+          <li><a href="pages/about.html" class="nav-link">Who we are</a></li>
+          <li><a href="pages/services.html" class="nav-link">Hseq</a></li>
+          <li><a href="pages/sustain.html" class="nav-link">Sustainability</a></li>
+          <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <ul class="nav-links nav2">
+          <li>
+            <a href="tel:+3197005032445" class="nav-link"
+              ><i class="ri-phone-fill"></i></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:info@svnttankfarm.com" class="nav-link"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero-slider">
+      <div class="slide active slide1">
+        <div class="overlay">
+          <div class="content">
+            <h1>
+              Enabling the Advancement of Oil Storage, Handling & Shipping
+            </h1>
+            <p>
+              Fuel, Oil, Gasoline Components, Ethanol, Methanol, Gasoil and
+              Gasoil Components
+            </p>
+
+            <button class="header-btn"><a href="pages/services.html">Services</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide2">
+        <div class="overlay">
+          <div class="content">
+            <h1>Developing Cutting-Edge industrial solutions</h1>
+            <p>
+              We take pride in our capacity to develop cutting-edge industrial
+              solutions that redefine the limits of what can be achieved.
+            </p>
+
+            <button class="header-btn"><a href="pages/about.html">About Us</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide3">
+        <div class="overlay">
+          <div class="content">
+            <h1>Expert knowledge in Oil & Gas Industry</h1>
+            <p>
+              Unlocking the Power of Technical Solutions with Expert Know-How!
+            </p>
+
+            <button class="header-btn"><a href="pages/contact.html">Contact</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide4">
+        <div class="overlay">
+          <div class="content">
+            <h1>Swift and Timely Inland & Maritime Shipping</h1>
+            <p>
+              SvnkTanks Terminal has 12 barges ranging from 750 to 3,650 tonnes
+              for shipping
+            </p>
+
+            <button class="header-btn"><a href="pages/sustain.html">Sustainability</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide slide5">
+        <div class="overlay">
+          <div class="content">
+            <h1>Shore Tank Leasing</h1>
+            <p>
+              Reliable and efficient shore tank leasing solutions tailored to
+              your needs.
+            </p>
+
+            <button class="header-btn"><a href="index.html">Home</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+
+    <section class="carousel-section main-carousel section">
+      <div class="write-up">
+        <div>
+          <p class="write-up-p1">Who we are</p>
+          <p class="line"></p>
+        </div>
+
+        <p class="about-us-info">
+          <b>SVNT Tanks </b> is a trusted leader in petroleum storage and
+          logistics, delivering efficient, safe, and innovative solutions for
+          the energy sector. Our advanced facilities and dedicated team ensure
+          reliable handling of diverse petroleum products while prioritizing
+          quality, compliance, and environmental responsibility.
+        </p>
+      </div>
+
+      <div class="fixed-nigga">
+        <div class="caro-item carousel-1">
+          <p class="description2">OIL</p>
+        </div>
+
+        <div class="carousel-container">
+          <div class="carousel" id="carousel">
+            <div class="carousel-item">
+              <img src="assets/images/g1.jpg" alt="Image 1" />
+
+              <p class="description">Innovative</p>
+              <p class="desc2">LPG Supply & Engineering</p>
+            </div>
+
+            <div class="carousel-item">
+              <img src="assets/images/g2.jpg" alt="Image 2" />
+
+              <p class="description">Safety</p>
+              <p class="desc2">Pipeline Inspection & Testing</p>
+            </div>
+
+            <div class="carousel-item">
+              <img src="assets/images/g4.jpg" alt="Image 3" />
+
+              <p class="description">Sustainable</p>
+              <p class="desc2">Custom Engineering Solutions</p>
+            </div>
+
+            <div class="carousel-item">
+              <img src="assets/images/g5.jpg" alt="Image 4" />
+
+              <p class="description">Efficient</p>
+              <p class="desc2">Industrial Maintenance Services</p>
+            </div>
+
+            <div class="carousel-item">
+              <img src="assets/images/slide4.avif" alt="Image 5" />
+
+              <p class="description">Versatile</p>
+              <p class="desc2">Supply Chain Management</span></p>
+            </div>
+
+            <div class="carousel-item">
+              <img src="assets/images/slide.jpg" alt="Image 6" />
+
+              <p class="description">Experienced</p>
+              <p class="desc2">Tank Storage Solutions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="view"><a href="pages/sustain.html">Read more</a></button>
+    </section>
+
+    <section class="section home-services-sec">
+      <div class="heading">
+        <p class="write-up-p1 services-heading">Services we render</p>
+        <p class="line"></p>
+      </div>
+
+      <div class="scam-type-content">
+        <div class="scam-section">
+          <div class="servs serv2" id="crypto-scams">
+            <img src="/assets/images/oil.png" alt="" />
+
+            <div class="servs-name">
+              <p>Oil & Gas</p>
+              <p>Power , Industry</p>
+            </div>
+          </div>
+
+          <div class="servs serv2" id="crypto-scams">
+            <img src="/assets/images/spring.png" alt="" />
+
+            <div class="servs-name">
+              <p>Spring Renovation</p>
+              <p>Petroleum ,Gas</p>
+            </div>
+          </div>
+
+          <div class="servs serv2" id="crypto-scams">
+            <img src="/assets/images/fan.png" alt="" />
+
+            <div class="servs-name">
+              <p>Wind Energy Plant</p>
+              <p>Manufacturing , energy</p>
+            </div>
+          </div>
+
+          <div class="servs serv2" id="crypto-scams">
+            <img src="/assets/images/tank-.png" alt="" />
+
+            <div class="servs-name">
+              <p>Petroluem Tank</p>
+              <p>Materials , petrol</p>
+            </div>
+          </div>
+
+          <div class="servs serv2" id="crypto-scams">
+            <img src="/assets/images/const.png" alt="" />
+
+            <div class="servs-name">
+              <p>Construction Work</p>
+              <p>Construction, Building</p>
+            </div>
+          </div>
+
+          <div class="servs serv2" id="crypto-scams">
+            <img src="/assets/images/log.jpg" alt="" />
+
+            <div class="servs-name">
+              <p>Logistics Services</p>
+              <p>Transport, Delivery</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="view">
+          <a href="pages/services.html">Read more</a>
+        </button>
+      </div>
+    </section>
+
+    <section class=" testimonial-slide-section">
+      <div class="heading testi-head">
+        <p class="write-up-p1 testi">What Our Customers say</p>
+        <p class="line"></p>
+      </div>
+
+      <div class="slider">
+        <div class="slide__2 slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Exceptional Service and Reliability</h5>
+            <blockquote class="testimonial__text">
+              Partnering with SvntTanks has significantly enhanced our supply chain efficiency. Their commitment to safety and timely deliveries is unparalleled. They continuously go above and beyond to ensure smooth operations, even in the most challenging situations.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="assets/images/user1.jpeg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">James Thornton, Global Energy Corp</h6>
+              <p class="testimonial__location">Edinburgh, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide__2 slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Sustainable Storage Solutions
+            </h5>
+            <blockquote class="testimonial__text">
+              The state-of-the-art facilities at SvntTanks have provided us with the flexibility and security we need for our diverse storage requirements. Their well-maintained and secure storage units offer peace of mind, ensuring the safe handling of our products at all times.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="assets/images/user2.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Miyah Miles, BioFuel Innovations</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide__2 slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Professional and Responsive Team
+            </h5>
+            <blockquote class="testimonial__text">
+              The team at SvntTanks is always ready to assist, ensuring our operations run smoothly. Their professionalism is commendable, and they respond quickly to any inquiries or concerns. It's rare to find a partner so dedicated to delivering excellence.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="assets/images/user3.jpeg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Michael Roberts, Lubricants Plus Ltd.</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide__2 slide--4">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Customized Storage Options
+            </h5>
+            <blockquote class="testimonial__text">
+              Svnt Tank's ability to provide tailored storage solutions has been instrumental in accommodating our unique product specifications. They understand the complexities of our industry and consistently offer solutions that meet our specific needs, no matter the challenge.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="assets/images/user4.jpg"
+                alt=""
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Sarah Mitchell, Marine Fuels International.</h6>
+              <p class="testimonial__location"></p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="overlay99">
+        <div class="envelop-cover">
+          <div class=" heading33">
+            <p class="write-up-p here">Svnt Tanks in numbers</p>
+            <p class="lin23"></p>
+          </div>
+          <div class="stats-cover">
+
+              <div class="stat">
+           
+              <h2><span class="count" data-target="70">0</span>.000m3</h2>
+              <p>Storage Capacity</p>
+              </div>
+
+              <div class="stat">
+             
+              <h2><span class="count" data-target="900">0</span></h2>
+              <p>Tanks</p>
+              </div>
+
+              <div class="stat">
+             
+              <h2><span class="count" data-target="200">0</span></h2>
+              <p>Tank sizes</p>
+              </div>
+
+              <div class="stat">
+              
+              <h2><span class="count" data-target="380">0</span></h2>
+              <p>Loading Locations</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="partners">
+      <div class="heading">
+        <p class="write-up-p1 pertnerrr">Our Partners</p>
+        <p class="line"></p>
+      </div>
+
+      <div class="partners-images">
+        <img src="assets/images/partner1.png" class="partner-img" alt="" />
+
+        <img src="assets/images/partn.png" class="partner-img" alt="" />
+
+        <img src="assets/images/parner5.jpeg" class="partner-img" alt="" />
+
+        <img src="assets/images/parner6.png" class="partner-img" alt="" />
+
+        <img src="assets/images/partner8.jpeg" class="partner-img" alt="" />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-overlay">
+        <div class="footer-wrap">
+          <div class="footer-div footer-div1">
+            <div class="heading">
+              <p class="write-up-footer">About</p>
+              <p class="line-foot"></p>
+            </div>
+
+            <p class="footer-about">
+              At Svnt Tanks, we are committed to delivering innovative solutions in tank storage, engineering, and logistics. With a focus on safety, sustainability, and exceptional service, we strive to be your trusted partner in achieving operational excellence and growth.
+            </p>
+
+            <div>
+              <ul class="footer2">
+                <li>
+                  <a href="tel:+3197005032445" class="footer-social"
+                    ><i class="ri-phone-fill"></i
+                    ></a>
+                </li>
+                <li>
+                  <a href="mailto:info@svnttankfarm.com" class="footer-social"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-div footer-div2">
+            <div class="heading">
+              <p class="write-up-footer">Info Links</p>
+              <p class="line-foot"></p>
+            </div>
+
+            <ul class="footer-links">
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i></span
+                ><a href="index.html" class="footer-link">Home</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="pages/about.html" class="footer-link">About us</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+
+                <a href="pages/services.html" class="footer-link">Our Business</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="pages/contact.html" class="footer-link">Contact</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="pages/services.html" class="footer-link">Tank Storage</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="pages/sustain.html" class="footer-link">Sustainability</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="pages/services.html" class="footer-link">Partners</a>
+              </li>
+
+              <li>
+                <span class="arrow-foot"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></span>
+                <a href="pages/services.html" class="footer-link">Values</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-div footer-div3">
+            <div class="heading">
+              <p class="write-up-footer">Contact Us</p>
+              <p class="line-foot"></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca"><i class="ri-map-pin-fill"></i></p>
+              <p class="loca2">Jurong Island, Singapore</p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca"><i class="fa-regular fa-envelope"></i></p>
+              
+              <p class="loca2"><a href="mailto:info@svnttankfarm.com">info@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              
+              <p class="loca2"><a href="mailto:rotterdam@svnttankfarm.com">rotterdam@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              
+              <p class="loca2"><a href="mailto:houston@svnttankfarm.com">houston@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              
+              <p class="loca2"><a href="mailto:singapore@svnttankfarm.com">singapore@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              
+              <p class="loca2"><a href="mailto:china@svnttankfarm.com">china@svnttankfarm.com</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca"><i class="ri-phone-fill"></i></p>
+              <p class="loca2"><a href="`">+31 9700 5032445</a></p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+
+              <p class="loca2"><a href="tel:+13464694116">+1 346 469 4116</a> (Houston) </p>
+            </div>
+
+            <div class="contact-info">
+              <p class="loca loca1"><i class="fa-solid fa-right-long"></i></p>
+              <p class="loca2"><a href="tel:+85246725461">+852 467 25461</a> (China)</p>
+            </div>
+          </div>
+
+         
+          <div class="footer-div footer-div4"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.451439514841!2d103.70722958604954!3d1.2909701499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1078c03e1a37%3A0x768c384f344b688!2sJurong%20Island%2C%20Singapore!5e0!3m2!1sen!2sus!4v1698499998417!5m2!1sen!2sus" width="100%" height="350" style="border:0; border-radius: 0.6rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        SvnkTanks Group | © 2024 Powered by SvnkTanks Inc, | All rights reserved
+      </p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

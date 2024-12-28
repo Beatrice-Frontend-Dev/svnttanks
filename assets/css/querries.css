@@ -1,0 +1,689 @@
+@media (max-width: 800px) {
+  .section,
+  .section4 {
+    padding: 10rem 4rem;
+  }
+
+  .logo {
+    height: 6.8rem;
+    width: 21rem;
+  }
+
+  .header-contact-info {
+    padding: 3rem 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+
+  .header-contact-div {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .close-btn {
+    display: block;
+    position: absolute;
+    right: 5rem;
+    top: 5rem;
+    font-size: 5rem;
+    color: #fff;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    height: 100%;
+    right: 0;
+    width: 80%;
+    border-radius: 0.7rem 0 0 0.7rem;
+    z-index: 2000;
+  }
+
+  .nav.active {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.7rem;
+    z-index: 1000;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 5rem;
+    padding: 3rem;
+  }
+
+  li .nav-link {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .nav2 {
+    display: none;
+  }
+
+  .burger-icon {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  /* //hero section */
+
+  .hero-slider {
+    height: 50vh;
+  }
+
+  .content {
+    left: 4rem;
+    width: 85%;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .write-up {
+    padding: 2rem 6rem;
+  }
+
+  .about-us-info {
+    font-size: 1.65rem;
+    font-weight: 450;
+  }
+
+  .caro-item,
+  .carousel-item img {
+    height: 13rem;
+  }
+
+  .content h1 {
+    padding-top: 10rem;
+  }
+
+  .content p {
+    font-size: 1.6rem;
+  }
+
+  .scam-section {
+    row-gap: 5.5rem;
+  }
+
+  .servs {
+    width: 47%;
+  }
+
+  .testimonial::before {
+    top: -1.9rem;
+    left: -5.7rem;
+    font-size: 14rem;
+  }
+
+  .testimonial__header {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  .testimonial__text {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .stat h2 {
+    font-size: 3.2rem;
+  }
+
+  .stat p {
+    font-size: 1.3rem;
+  }
+
+  .partners-images {
+    column-gap: 4.3rem;
+    row-gap: 5rem;
+    padding: 4rem 8rem;
+  }
+
+  .partner-img {
+    height: 10.5rem;
+    width: 21rem;
+  }
+
+  .footer-wrap {
+    row-gap: 6rem;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+  }
+
+  .footer-div {
+    width: 100%;
+  }
+
+  .footer-div2 {
+    padding-left: 0;
+  }
+
+  .write-up-footer {
+    font-size: 3rem;
+  }
+
+  .footer-about {
+    width: 87%;
+    font-size: 2.4rem;
+    line-height: 27px;
+  }
+
+  .footer-link {
+    font-size: 2.4rem;
+  }
+
+  .loca2,
+  .loca2 a {
+    font-size: 2.4rem;
+  }
+
+  .copyright {
+    font-size: 1.75rem;
+  }
+
+  /* otherpages hero styling */
+  .content22 {
+    padding-top: 10rem;
+  }
+
+  .about-us-content {
+    flex-direction: column-reverse;
+    row-gap: 6rem;
+  }
+
+  .our-work-cover {
+    flex-direction: column;
+    row-gap: 4.5rem;
+  }
+
+  .who,
+  .whatt,
+  .give {
+    width: 100%;
+    padding: 4.4rem 8rem;
+  }
+
+  .who h3,
+  .whatt h3,
+  .give h3 {
+    font-size: 3rem;
+  }
+
+  .ttlk,
+  .ttlk2 {
+    font-size: 2.1rem;
+    line-height: 27px;
+  }
+
+  .unk-div h3 {
+    font-size: 2rem;
+  }
+
+  .unk-div h2 {
+    font-size: 3.4rem;
+  }
+
+  .facility-content,
+  .facility-content2 {
+    flex-direction: column;
+    row-gap: 7rem;
+  }
+
+  .facili {
+    width: 100%;
+  }
+
+  .facili img {
+    height: 35rem;
+    border-radius: 0.7rem;
+  }
+
+  .mission,
+  .vision-p,
+  .value {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 4rem;
+  }
+
+  .p11 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .p22 {
+    font-size: 2.4rem;
+  }
+
+  .faci1,
+  .faci3 {
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+
+  .facillis-img,
+  .other-content2 {
+    flex: 1;
+    width: 100%;
+  }
+
+  .faci2,
+  .faci4 {
+    flex-direction: column-reverse;
+  }
+
+  .serv-overlay {
+    flex-direction: column-reverse;
+    padding: 7rem 4rem;
+    row-gap: 5rem;
+  }
+
+  .image-cont,
+  .serv-overlay-cont {
+    width: 100%;
+  }
+
+  .serv-overlay-cont h3 {
+    font-size: 2.5rem;
+    font-weight: 650;
+  }
+
+  .serv-overlay-cont h2 {
+    font-size: 3.9rem;
+  }
+
+  .serv-overlay-cont p {
+    font-size: 1.95rem;
+    font-weight: 500;
+    width: 80%;
+  }
+
+  .about-us-info2-1,
+  .about-us-info2,
+  .svnt-about,
+  .general-p {
+    text-align: left;
+    font-size: 2.2rem;
+  }
+
+  .writeup-2-0 {
+    padding: 2rem 1rem;
+  }
+
+  .list-item li {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .list-item li::marker {
+    font-size: 3rem;
+  }
+
+  .reach-us-section {
+    flex-direction: column;
+    row-gap: 6rem;
+  }
+
+  .reach-info,
+  .reach-form {
+    flex: 1;
+    width: 100%;
+  }
+
+  .reach-info h3,
+  .add {
+    font-size: 3.7rem;
+  }
+
+  .p22-2-3,
+  .loca3 {
+    font-size: 1.9rem;
+  }
+
+  .emails2 {
+    row-gap: 1.4rem;
+  }
+
+  .loca3 a {
+    font-size: 2.1rem;
+  }
+
+  .contact-form input {
+    padding: 3rem;
+  }
+
+  .contact-form textarea {
+    height: 18rem;
+  }
+
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    font-size: 2rem;
+  }
+
+  .btn-submit {
+    padding: 2rem 3rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .section,
+  .section4 {
+    padding: 10rem 2.6rem;
+  }
+
+  .section2 {
+    padding: 5rem 2.6rem;
+  }
+
+  .section3 {
+    padding: 0rem 2.6rem 3rem 2.6rem;
+  }
+
+  .logo {
+    height: 6.6rem;
+    width: 20rem;
+  }
+
+  .burger-icon {
+    height: 4.4rem;
+    width: 4.4rem;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .close-btn {
+    font-size: 3rem;
+  }
+
+  .nav-links {
+    row-gap: 5rem;
+    padding: 3rem 2rem;
+  }
+
+  li .nav-link {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .burger {
+    display: flex;
+    align-self: center;
+  }
+
+  .header-contact-info {
+    padding: 2rem 2.6rem;
+  }
+
+  /* hero */
+  .hero-slider {
+    height: 80vh;
+  }
+
+  .content {
+    left: 3rem;
+    width: 95%;
+  }
+
+  .content h1 {
+    padding-top: 10rem;
+    font-size: 3.5rem;
+  }
+
+  .header-btn {
+    width: 40%;
+    padding: 1.6rem 2.5rem;
+  }
+
+  .write-up {
+    padding: 0;
+  }
+
+  .write-up-p1 {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  .about-us-info {
+    font-size: 1.7rem;
+    font-weight: 450;
+  }
+
+  .carousel-section {
+    row-gap: 3.5rem;
+  }
+
+  .carousel-item {
+    width: 100%;
+  }
+
+  .carousel-item img {
+    height: 13rem;
+  }
+
+  .caro-item {
+    width: 100%;
+    height: 13rem;
+  }
+
+  .services-heading {
+    font-size: 3.7rem;
+    text-align: center;
+  }
+
+  .home-services-sec {
+    row-gap: 5rem;
+  }
+
+  .servs {
+    width: 100%;
+  }
+
+  .servs img {
+    width: 100%;
+    height: 25rem;
+  }
+
+  .testimonial::before {
+    top: -1.9rem;
+    left: -5.7rem;
+    font-size: 14rem;
+  }
+
+  .testimonial__header {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  .testimonial__text {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .testi-head {
+    margin-bottom: 3rem;
+  }
+
+  .testi {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .testimonial-slide-section {
+    padding: 7rem 0;
+  }
+
+  .testimonial__text {
+    font-size: 1.5rem;
+  }
+
+  .slider {
+    padding: 3rem 0;
+  }
+
+  .slider {
+    max-width: 100rem;
+    height: 40rem;
+  }
+
+  .stats {
+    height: 65rem;
+  }
+
+  .here {
+    font-size: 2.7rem;
+    margin-top: 1.5rem;
+  }
+
+  .envelop-cover {
+    padding: 10rem 2.6rem;
+  }
+
+  .stats-cover {
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 5rem 0rem;
+  }
+
+  .stat {
+    width: 80%;
+  }
+
+  .partners {
+    padding: 5rem 2.6rem;
+  }
+
+  .partners-images {
+    justify-content: center;
+    row-gap: 5rem;
+    padding: 3rem 0;
+  }
+
+  .partner-img {
+    width: 95%;
+    height: 17.5rem;
+  }
+
+  .footer-overlay {
+    padding: 8rem 4rem;
+  }
+
+  .svnt-about,
+  .about-us-info,
+  .general-p {
+    padding: 0;
+    width: 100%;
+  }
+
+  .contact-us-about-page-cover {
+    row-gap: 2.2rem;
+  }
+  .contact-us-about-page-overlay {
+    padding: 6rem 2.6rem;
+  }
+
+  .contact-us-about-page-cover h3 {
+    font-size: 2.5rem;
+  }
+
+  .contact-us-about-page-cover h2 {
+    font-size: 3.7rem;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .contact-us-about-page-cover p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .unk-div h3 {
+    font-size: 1.89rem;
+  }
+
+  .unk-div h2 {
+    font-size: 3rem;
+  }
+
+  .p11 {
+    font-size: 3rem;
+  }
+
+  .p22 {
+    font-size: 2rem;
+  }
+
+  .other-content {
+    padding: 1.5rem 0;
+  }
+
+  .facili img {
+    width: 100%;
+    height: 19.5rem;
+  }
+
+  .mission-content {
+    padding: 1rem 2.6rem;
+  }
+
+  .mission,
+  .vision-p,
+  .value {
+    grid-template-columns: 1fr;
+    padding: 4rem 0rem;
+  }
+
+  .vision-p {
+    padding-left: 0.4rem;
+  }
+
+  .unk-div h3 {
+    font-size: 1.8rem;
+  }
+
+  .unk-div h2 {
+    font-size: 2.5rem;
+  }
+
+  .facillis-img img {
+    height: 20rem;
+  }
+
+  .other-content2 {
+    color: #1e1e1e;
+    padding: 0rem 0rem 2rem 1rem;
+  }
+
+  .write-up-p1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .sustain-1-section img {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .serv-overlay-cont p {
+    font-size: 1.95rem;
+    font-weight: 500;
+    width: 100%;
+  }
+}
