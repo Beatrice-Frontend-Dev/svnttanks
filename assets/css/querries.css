@@ -772,6 +772,11 @@
     font-weight: 480;
   }
 
+  .contact-form {
+    row-gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
   .contact-form input {
     padding: 1.5rem;
   }
