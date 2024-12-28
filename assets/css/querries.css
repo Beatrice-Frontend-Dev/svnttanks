@@ -429,7 +429,7 @@
   }
 
   .header-contact-info {
-    padding: 2rem 2.6rem;
+    padding: 2rem 1.6rem;
   }
 
   /* hero */
@@ -447,10 +447,10 @@
     font-size: 3.5rem;
   }
 
-  .header-btn {
+  /* .header-btn {
     width: 40%;
     padding: 1.6rem 2.5rem;
-  }
+  } */
 
   .write-up {
     padding: 0;
