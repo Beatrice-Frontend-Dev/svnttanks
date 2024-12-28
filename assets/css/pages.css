@@ -598,6 +598,6 @@
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  font-size: 1.45rem;
-  font-weight: 550;
+  font-size: 1.4rem;
+  font-weight: 500;
 }

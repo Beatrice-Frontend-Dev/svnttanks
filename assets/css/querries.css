@@ -597,7 +597,8 @@
   .about-us-info,
   .about-us-info2-1,
   .about-us-info2,
-  .general-p {
+  .general-p,
+  .list-item li {
     padding: 0;
     width: 100%;
     font-weight: 450;
@@ -741,11 +742,42 @@
   }
 
   .suss-s {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
   }
 
   .mob {
     font-size: 1.4rem;
     font-weight: 450;
+  }
+
+  /* //contact-page-query */
+  .reach-info {
+    padding: 2rem 1.5rem;
+  }
+
+  .reach-info h3 {
+    font-size: 2.6rem;
+  }
+
+  .p22-2-3 {
+    font-size: 1.56rem;
+    font-weight: 450;
+    width: 100%;
+    line-height: 23px;
+  }
+
+  .loca3 a {
+    font-size: 1.65rem;
+    font-weight: 480;
+  }
+
+  .contact-form input {
+    padding: 1.5rem;
+  }
+
+  .contact-form input::placeholder {
+    font-size: 1.4rem;
+    font-weight: 500;
   }
 }
