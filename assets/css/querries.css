@@ -514,6 +514,12 @@
     font-weight: 700;
   }
 
+  .testimonial__photo {
+    grid-row: 1 / span 2;
+    width: 3.5rem;
+    border-radius: 50%;
+  }
+
   .testimonial__text {
     font-size: 1.6rem;
     font-weight: 500;
