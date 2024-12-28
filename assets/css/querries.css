@@ -594,8 +594,8 @@
   .general-p {
     padding: 0;
     width: 100%;
-    font-weight: 420;
-    font-size: 1.63rem;
+    font-weight: 450;
+    font-size: 1.8rem;
   }
 
   .contact-us-about-page-cover {
@@ -669,7 +669,8 @@
   }
 
   .ttlk {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
+    font-weight: 450;
     line-height: 27px;
   }
 
