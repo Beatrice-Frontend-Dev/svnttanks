@@ -629,11 +629,13 @@
     margin-top: 1.6rem;
   }
 
-  .p11 {
+  .p11,
+  .p11-1 {
     font-size: 2.5rem;
   }
 
-  .p22 {
+  .p22,
+  .p22-2 {
     font-size: 1.9rem;
   }
 
@@ -712,9 +714,27 @@
     height: 20rem;
   }
 
+  .serv-overlay {
+    padding: 7rem 2.3rem;
+  }
+
+  .serv-overlay-cont h3 {
+    font-size: 1.7rem;
+  }
+
+  .serv-overlay-cont h2 {
+    font-size: 2.2rem;
+    line-height: 40px;
+  }
+
   .serv-overlay-cont p {
-    font-size: 1.95rem;
+    font-size: 1.5rem;
     font-weight: 500;
     width: 100%;
+  }
+
+  .serv-overlay-cont button {
+    display: block;
+    margin: 0 auto;
   }
 }
