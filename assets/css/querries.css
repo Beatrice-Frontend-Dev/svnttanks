@@ -429,7 +429,8 @@
   }
 
   .header-contact-info {
-    padding: 2rem 1.6rem;
+    padding: 2rem 1rem;
+    overflow: hidden;
   }
 
   /* hero */
